@@ -1,0 +1,46 @@
+;Information
+name = CVVEde
+description = CVVE Theme
+core = 7.x
+;base theme = center
+
+;Settings
+;settings[nuke_fields]       = FALSE
+
+;-------------- R E G I O N S -------------
+
+;regions[page_top]           = Page Top
+;regions[page_bottom]        = Page Bottom
+
+;regions[utility]            = Utility
+;regions[top_banner]         = Top Banner
+;regions[header]             = Header
+;regions[navigation]         = Navigation
+
+;regions[help]               = Help
+
+;regions[marquee]            = Marquee
+;regions[highlighted]        = Highlighted
+;regions[featured]           = Featured
+;regions[above_content]      = Above Content
+regions[content]            = Content
+;regions[sidebar]            = Sidebar
+;regions[subnav]             = Sub Navigation
+;regions[below_content]      = Below Content
+
+;regions[footer]             = Footer
+;regions[admin_footer]       = Admin Footer
+
+;-------------- C S S -------------
+stylesheets[all][] = css/combine.css
+stylesheets[all][] = css/cvvede.css
+
+;stylesheets[print][] = css/override/keep/print.css
+
+;-------------- J S -------------
+;scripts[] = js/toggle/toggle.js
+;scripts[] = js/mainNav.js
+;scripts[] = js/main.js
+scripts[] = js/combine.js
+scripts[] = js/scripts.js
+
