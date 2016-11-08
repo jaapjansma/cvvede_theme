@@ -144,33 +144,7 @@
     </div></div> <!-- /.section, /#footer -->
 
   </div></div> <!-- /#page, /#page-wrapper -->
-
-      <section class="newsletter_form_wrapper">
-        <h1>Houd me op de hoogte via email</h1>
-        <div class="newsletter_form ajax_form">
-          <div class="section group">
-            <div class="col span_6_of_12">
-              <div class="row">
-                <input type="checkbox" name="Nieuws" value="Ja" id="newsletter_news" class="validate" />
-                <label for="newsletter_news" class="row_label">nieuws</label>
-              </div>
-              <div class="row">
-                <input type="checkbox" name="Hulpvragen" value="Ja" id="newsletter_help" />
-                <label for="newsletter_help" class="row_label">hulpvragen</label>
-              </div>
-            </div>
-            <div class="col span_6_of_12">
-              <div class="row">
-                <input type="text" class="validate email_validate input_form" name="Email" data-alert="E-mail" title="E-mail"/>
-              </div>
-              <div class="row">
-                <input data-action="newsletter_form" type="button" name="send" value="Verzend" class="submit_form button button_short"/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
     </div>
   </div>
 </div>
